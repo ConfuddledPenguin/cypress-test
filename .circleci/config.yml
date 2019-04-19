@@ -11,3 +11,9 @@ workflows:
             - cypress/install
           group: 'all tests'  # name this group "all tests" on the dashboard
           start: 'npm start'  # start server before running tests
+          record: true
+          parallel: true
+          parallelism: 2
+          store_artifacts: true
+          - store_test_results:
+                path: cypress/results
