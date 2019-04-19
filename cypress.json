@@ -1,7 +1,8 @@
 {
-	"baseUrl": "http://localhost:3000#",
-	"reporter": "junit",
-	"reporterOptions": {
-		"mochaFile": "cypress/results/cypress-[hash].xml"
-	}
+  "baseUrl": "http://localhost:3000#",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "cypress/results/cypress-[hash].xml"
+  },
+  "projectId": "3qdyi5"
 }
